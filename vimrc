@@ -58,6 +58,13 @@ hi CursorLine   cterm=underline
  nmap    w-  :resize -3<CR>
  nmap    w,  :vertical resize -3<CR>
  nmap    w.  :vertical resize +3<CR>
+ 
+ set tabstop=4
+ set softtabstop=4
+ set shiftwidth=4
+ set autoindent
+ set cindent
+ set cinoptions={0,1s,t0,n-2,p2s,(03s,=.5s,>1s,=1s,:1s
 
 
 " Source a global configuration file if available
