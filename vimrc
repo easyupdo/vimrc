@@ -67,6 +67,8 @@ hi CursorLine   cterm=underline
  set cinoptions={0,1s,t0,n-2,p2s,(03s,=.5s,>1s,=1s,:1s
  
  set statusline=%F\ [%{&fenc}\ %{&ff}\ L%l/%L\ C%c]\ %=%{strftime('%Y-%m-%d\ %H:%M')} 
+ set laststatus=2
+ hi statusline ctermfg=black ctermbg=gray 
 
 
 " Source a global configuration file if available
